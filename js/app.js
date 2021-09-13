@@ -1,5 +1,4 @@
 //Fetch data from api and set paramenter result to show data  on site.
-
 const loadProducts = () => {
   const url = `https://fakestoreapi.com/products`;
   fetch(url)
@@ -180,4 +179,3 @@ const showCategoryProducts = (products) => {
     parentDiv.appendChild(div);
   }
 }
-

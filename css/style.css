@@ -1,89 +1,78 @@
-body {
-  overflow-x: hidden;
-  font-family: "Montserrat", sans-serif;
+/*=========== Global============ */
+ body {
+     overflow-x: hidden;
+     font-family: "Montserrat", sans-serif;
 }
-
-button#search-btn {
-    background: black;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
+/*=================== search field and button================ */
+ button#search-btn {
+     background: black;
+     color: white;
+     font-weight: bold;
+     font-size: 18px;
 }
-.height {
-   
-    margin-top:20px;
+ .height {
+     margin-top:20px;
 }
-
-.search {
-    position: relative;
-    box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+ .search {
+     position: relative;
+     box-shadow: 0 0 40px rgba(51, 51, 51, .1) 
 }
-
-.search input {
-    height: 60px;
-    text-indent: 25px;
-    border: 2px solid #d6d4d4
+ .search input {
+     height: 60px;
+     text-indent: 25px;
+     border: 2px solid #d6d4d4 
 }
-
-.search input:focus {
-    box-shadow: none;
-    border: 2px solid blue
+ .search input:focus {
+     box-shadow: none;
+     border: 2px solid blue 
 }
-
-.search .fa-search {
-    position: absolute;
-    top: 20px;
-    left: 16px
+ .search .fa-search {
+     position: absolute;
+     top: 20px;
+     left: 16px 
 }
-
-.search button {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    height: 50px;
-    width: 110px;
-    background: blue
+ .search button {
+     position: absolute;
+     top: 5px;
+     right: 5px;
+     height: 50px;
+     width: 110px;
+     background: blue 
 }
-
-div#my-cart {
-    border: 1px solid #ddd;
-    margin-top: 20px;
-    padding: 10px;
+/* ===============cart design================== */
+ div#my-cart {
+     border: 1px solid #ddd;
+     margin-top: 20px;
+     padding: 10px;
 }
-th{
-    font-size:14px;
-  
+ th{
+     font-size:14px;
 }
-td{
-    font-size:14px;
-    font-weight:bold;
-  color:#dc3545;
-  
+ td{
+     font-size:14px;
+     font-weight:bold;
+     color:#dc3545;
 }
-
-.cart-title {
-    color: #dc3545;
+ .cart-title {
+     color: #dc3545;
 }
-
-.all-products{
-    margin-top: 40px;
+/* ===================Product Area CSS=================== */
+ .all-products{
+     margin-top: 40px;
 }
-
-.card-title {
-    color: #dc3545;
+ .card-title {
+     color: #dc3545;
 }
-
-#product-price {
-    color: #dc3545;
+ #product-price {
+     color: #dc3545;
 }
-#rating{
-    color: #198754;
+ #rating{
+     color: #198754;
 }
-
-/* Single Product */
-.single-product {
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 30px;
-    margin-bottom: 10px;
+/* ==============Single Product ======================*/
+ .single-product {
+     border: 1px solid black;
+     border-radius: 5px;
+     padding: 30px;
+     margin-bottom: 10px;
 }
